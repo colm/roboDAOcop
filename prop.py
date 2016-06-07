@@ -55,7 +55,7 @@ def listen():
         if "result" in result.keys():
             for trans in result["result"]:
                 if trans[u'input'][2:10] in DAOfunctions.keys():
-                    msg("%s:%s Wei\n http://etherscan.io/tx/%s" %(DAOfunctions[trans[u'input'][2:10]],trans[u'value'],trans[u'hash']), "#bot")
+                    msg("%s:%s Wei\n http://etherscan.io/tx/%s" %(DAOfunctions[trans[u'input'][2:10]],trans[u'value'],trans[u'hash']), "#botspam")
 
 
 
